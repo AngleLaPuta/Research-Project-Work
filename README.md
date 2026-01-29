@@ -21,3 +21,8 @@ The fine-tuning tanks the training and validation accuracy, which is normal. How
 
 After adjusting the patience and fixing the fine-tuning, it has reached 100% validation accuracy. Obviously this doesnt mean 100% accuracy in real world but its means pretty close. 
 ![fin.png](reports/fin.png)
+
+
+January 27, 2026:
+
+I learned about cross-attention models today using this paper (https://arxiv.org/abs/1706.03762) and this video (https://www.youtube.com/watch?v=VHBBdjvrq2E), so I’m implementing this now so we can visually see the spatial correlation between the SAR and RGB branches, and also see if it takes less epochs than the Late fusion model.
